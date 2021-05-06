@@ -11,14 +11,14 @@ library("MASS")
 library("ggplot2")
 library("scales")
 library("gridExtra")
-library(dplyr)
-dataset <- data %>% select_if(is.numeric)
-dataset <- data %>% select_if(is.character)
+#library(dplyr)
+#dataset <- data %>% select_if(is.numeric)
+#dataset <- data %>% select_if(is.character)
 #transform character into numerical / dummy
 #install.packages("fastDummies")
-library(fastDummies)
-character <- dummy_cols(character, 
-                        remove_most_frequent_dummy = TRUE)
+#library(fastDummies)
+#character <- dummy_cols(character, 
+                        #remove_most_frequent_dummy = TRUE)
 
 shinyServer(function(input, output) {
   
