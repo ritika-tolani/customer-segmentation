@@ -44,7 +44,7 @@ submitButton(text = "Apply Changes", icon("refresh"))
                          p("In machine learning and statistics, classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs, on the basis of a training set of data containing observations (or instances) whose category membership is known. An example would be assigning a given email into \"spam\" or \"non-spam\" classes or assigning a diagnosis to a given patient as described by observed characteristics of the patient (gender, blood pressure, presence or absence of certain symptoms, etc.). Classification is an example of pattern recognition.",
                            align="justify"),
                          p("In the terminology of machine learning, classification is considered an instance of supervised learning, i.e. learning where a training set of correctly identified observations is available. The corresponding unsupervised procedure is known as clustering, and involves grouping data into categories based on some measure of inherent similarity or distance.",
-                           align="justify"),
+                           align="justify")),
                     
                   tabPanel("Data Input Format",
                          h4(p("Data input")),
@@ -89,6 +89,6 @@ submitButton(text = "Apply Changes", icon("refresh"))
                 )
       ) 
     ) 
-  ))
+  )
 # tabPanel("PCA Variance Plot",plotOutput("plot1", width = "100%")),
 # tabPanel("JSM Plot",plotOutput("plot", height = 800, width = 840)),
