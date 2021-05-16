@@ -7,7 +7,7 @@ library("shiny")
 shinyUI(fluidPage(
   # Header:
   
-  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right',"Grahak.IO"))),
+  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right')"Grahak.IO")),
   # Input in sidepanel:
   sidebarPanel(
 
@@ -30,13 +30,11 @@ submitButton(text = "Upload Changes", icon("refresh"))
     tabsetPanel(type = "tabs",
                 tabPanel("About Us",align="center",
                          h3(p("Grahak.IO")), 
-                         p("We at Grahak.IO aim at easing your customer Relationship Management by Providing a graphical analysis of your customer database in a userfriendly way. 
-",
+                         p("We at Grahak.IO aim at easing your customer Relationship Management by Providing a graphical analysis of your customer database in a userfriendly way.Grahak.IO provides you with graphs/plots which can be easily downloaded and shared.",
                            align="justify"),                       
                          br(),
                          h3(p("How we do it ? ")), 
-                         p("We use Clustering algorithms divide your customer data into groups that share similar characteristics and generate visual results in the form of plots/graph to help you get more value out of your data.
-",
+                         p("We use Clustering algorithms divide your customer data into groups that share similar characteristics and generate visual results in the form of plots/graph to help you get more value out of your data.Clustering algorithms such as K-means,hierarchial and model based help in segmenting data accurately based on which you can customize your interaction with customers",
                            align="justify"),                       
                          br(),
                          h3(p("How it helps your business ?")), 
@@ -45,7 +43,7 @@ submitButton(text = "Upload Changes", icon("refresh"))
                     
                   tabPanel("Data Input Format",
                          h4(p("Data input")),
-                         p("This shiny application requires three data inputs from the user. To do so, click on the Browse (in left side-bar panel) and upload the Segmentation data input file. Similarly upload Discriminant and Classification data sets.
+                         p("Grahak.IO requires you to input three data sets. To do so, click on the Browse (in left side-bar panel) and upload the Segmentation data input file. Similarly upload Discriminant and Classification data sets.
                            Note that this application can read only csv file(comma delimited file), so if you don't have csv input data file, first convert your data in csv format 
                            and then proceed. Make sure you have top row as variable names and first column as respondent id/name in csv file"
                            ,align="justify"),
@@ -54,7 +52,7 @@ submitButton(text = "Upload Changes", icon("refresh"))
                          img(src = "Classification.png", height = 180, width = 400),p('Classification Sample file'),
                          br(),
                          
-                         p("Once csv file is uploaded successfully, by-default application will perform K-means segmentation with 3 segments. In left-side bar panel you can change the segmentation algorithm and number of segments. Click on Apply changes after making any change in the inputs. Accordingly results will be updates in all the tabs",
+                         p(" In left-side bar panel you can change the segmentation algorithm and number of segments. Click on Apply changes after making any change in the inputs. Accordingly results will be updates in all the tabs",
                            align="justify"),
                          br()),
                 tabPanel("Example dataset", h4(p("Download Sample files")), br(),
