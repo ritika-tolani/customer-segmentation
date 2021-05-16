@@ -1,14 +1,13 @@
 ####################################################
-#      Segmentation Discriminant and Targeting     #
+#      Customer Analysis using R    #
 ####################################################
 
 library("shiny")
-#library("foreign")
 
 shinyUI(fluidPage(
   # Header:
   #headerPanel("Segmentation Discriminant & Classification"),
-  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='right'),"Customer Analysis")),
+  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='left'))),
   # Input in sidepanel:
   sidebarPanel(
 
