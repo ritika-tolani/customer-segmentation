@@ -16,7 +16,6 @@ shinyUI(fluidPage(
   titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right'))),
   # Input in sidepanel:
   sidebarPanel(
-    setBackgroundColor("#B0E0E6"),
 
     fileInput("file", "Upload Segmentation data (csv file with header)"),
     fileInput("file1", "Upload Discriminant data (csv file with header)"),
