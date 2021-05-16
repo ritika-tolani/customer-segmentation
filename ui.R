@@ -7,7 +7,7 @@ library("shiny")
 shinyUI(fluidPage(
   # Header:
   
-  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right')"Grahak.IO")),
+  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right'),"Grahak.IO")),
   # Input in sidepanel:
   sidebarPanel(
 
@@ -39,7 +39,8 @@ submitButton(text = "Upload Changes", icon("refresh"))
                          br(),
                          h3(p("How it helps your business ?")), 
                          p(" By analyzing your customer data effectively you can generate innovative ideas to startegize personalized marketing caimpaigns for each customer. These personalized experiences helps in fostering your relationship with them.",
-                           align="justify"),),
+                           align="justify"),
+                         br()),
                     
                   tabPanel("Data Input Format",
                          h4(p("Data input")),
