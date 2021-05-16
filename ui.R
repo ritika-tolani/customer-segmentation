@@ -47,14 +47,14 @@ submitButton(text = "Upload Changes", icon("refresh"))
                          p("Grahak.IO requires you to input three data sets. To do so, click on the Browse (in left side-bar panel) and upload the Segmentation data input file. Similarly upload Discriminant and Classification data sets.
                            Note that this application can read only csv file(comma delimited file), so if you don't have csv input data file, first convert your data in csv format 
                            and then proceed. Make sure you have top row as variable names and first column as respondent id/name in csv file"
-                           ,align="justify"),
+                           ,align="justify",style="font-family: Palatino Linotype;"),
                          img(src = "Segmentation.png", height = 180, width = 400),p('Segmentation Sample file'),
                          img(src = "Discriminant.png", height = 180, width = 400),p('Discriminant Sample file'),
                          img(src = "Classification.png", height = 180, width = 400),p('Classification Sample file'),
                          br(),
                          
                          p(" In left-side bar panel you can change the segmentation algorithm and number of segments. Click on Apply changes after making any change in the inputs. Accordingly results will be updates in all the tabs",
-                           align="justify"),
+                           align="justify",style="font-family: Palatino Linotype;"),
                          br()),
                 tabPanel("Example dataset", h4(p("Download Sample files")), br(),
                          downloadButton('downloadData1', 'Download Segmentation Sample file'), br(),br(),
@@ -62,7 +62,7 @@ submitButton(text = "Upload Changes", icon("refresh"))
                          downloadButton('downloadData3', 'Download Classification Sample file'), br(),br(),
                          
                          p("Please note that download will not work with RStudio interface. Download will work only in web-browsers. So open this app in a web-browser and then download the example file. For opening this app in web-browser click on \"Open in Browser\" as shown below -",
-                         align="justify"),
+                         align="justify",style="font-family: Palatino Linotype;"),
                         img(src = "example1.png")),
                 #tabPanel("Data",h3(textOutput("caption"),tableOutput("table"))),
                 
