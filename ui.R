@@ -7,7 +7,7 @@ library("shiny")
 shinyUI(fluidPage(
   # Header:
   #headerPanel("Segmentation Discriminant & Classification"),
-  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='left'))),
+  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right'))),
   # Input in sidepanel:
   sidebarPanel(
 
