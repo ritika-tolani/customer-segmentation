@@ -28,7 +28,7 @@ submitButton(text = "Upload Changes", icon("refresh"))
   mainPanel( 
     
     tabsetPanel(type = "tabs",
-                tabPanel("About Us",
+                tabPanel("About Us",align="center",
                          h4(p("Grahak.IO")), 
                          p("Market segmentation is the process of dividing a target market into smaller, more defined categories. It segments customers and audiences into groups that share similar characteristics such as demographics, interests, needs, or location.",
                            align="justify"),
