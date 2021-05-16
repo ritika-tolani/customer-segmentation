@@ -11,7 +11,7 @@ shinyUI(fluidPage(
   # Input in sidepanel:
   sidebarPanel(
 
-    fileInput("file", "Upload Segmentation data (csv file with header)"),
+    fileInput("file", "Upload Segmentation data (csv file with header)",style="font-family: Cambria Math;"),
     fileInput("file1", "Upload Discriminant data (csv file with header)"),
     fileInput("file2", "Upload Classification data (csv file with header)"),
         
