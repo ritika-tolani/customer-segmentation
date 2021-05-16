@@ -6,8 +6,8 @@ library("shiny")
 
 shinyUI(fluidPage(
   # Header:
-  #headerPanel("Segmentation Discriminant & Classification"),
-  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right'))),
+  
+  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right',"Grahak.IO"))),
   # Input in sidepanel:
   sidebarPanel(
 
