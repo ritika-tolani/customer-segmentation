@@ -3,6 +3,7 @@
 ####################################################
 
 library("shiny")
+library("shinyWidgets")
 
 shinyUI(fluidPage(
   setBackgroundColor(
