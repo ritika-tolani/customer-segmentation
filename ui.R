@@ -5,11 +5,7 @@
 library("shiny")
 
 shinyUI(fluidPage(
-  setBackgroundColor(
-    color = c("#FFFFFF", "#172577"),
-    gradient = "Linear",
-    direction = "Bottom"
-    ),
+  setBackgroundcolor("cyan"),
   # Header:
   
   titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right'))),
