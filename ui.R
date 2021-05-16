@@ -5,11 +5,16 @@
 library("shiny")
 
 shinyUI(fluidPage(
+  setBackgroundColor(
+    color = c("#FFFFFF", "#172577"),
+    gradient = "Linear",
+    direction = "Bottom"
+    ),
   # Header:
   
   titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right'))),
   # Input in sidepanel:
-  sidebarPanel( br(), br(),
+  sidebarPanel(
 
     fileInput("file", "Upload Segmentation data (csv file with header)"),
     fileInput("file1", "Upload Discriminant data (csv file with header)"),
