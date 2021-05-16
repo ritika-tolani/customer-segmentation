@@ -23,7 +23,7 @@ shinyUI(fluidPage(
     
     br(),
 
-submitButton(text = "Apply Changes", icon("refresh"))
+submitButton(text = "Upload Changes", icon("refresh"))
   ),
   # Main:
   mainPanel( 
@@ -31,13 +31,15 @@ submitButton(text = "Apply Changes", icon("refresh"))
     tabsetPanel(type = "tabs",
                 tabPanel("About Us",
                          h4(p("Grahak.IO")), 
-                         p("Market segmentation is a marketing strategy which involves dividing a broad target market into subsets of consumers, businesses, or countries who have, or are perceived to have, common needs, interests, and priorities, and then designing and implementing strategies to target them. Market segmentation strategies are generally used to identify and further define the target customers, and provide supporting data for marketing plan elements such as positioning to achieve certain marketing plan objectives. Businesses may develop product differentiation strategies, or an undifferentiated approach, involving specific products or product lines depending on the specific demand and attributes of the target segment.",
-                           align="justify"),                         
+                         p("Market segmentation is the process of dividing a target market into smaller, more defined categories. It segments customers and audiences into groups that share similar characteristics such as demographics, interests, needs, or location.",
+                           align="justify"),
+                         p("The importance of market segmentation is that it makes it easier to focus marketing efforts and resources on reaching the most valuable audiences and achieving business goals.",
+                           align="justify"), 
                          br(),
                          h4(p("Discriminant analysis")), 
-                         p("Linear discriminant analysis (LDA) is a generalization of Fisher's linear discriminant, a method used in statistics, pattern recognition and machine learning to find a linear combination of features that characterizes or separates two or more classes of objects or events. The resulting combination may be used as a linear classifier, or, more commonly, for dimensionality reduction before later classification.",
+                         p("Discriminant analysis is statistical technique used to classify observations into non-overlapping groups, based on scores on one or more quantitative predictor variables.",
                            align="justify"),
-                         p("LDA is closely related to analysis of variance (ANOVA) and regression analysis, which also attempt to express one dependent variable as a linear combination of other features or measurements. However, ANOVA uses categorical independent variables and a continuous dependent variable, whereas discriminant analysis has continuous independent variables and a categorical dependent variable (i.e. the class label). Logistic regression and probit regression are more similar to LDA than ANOVA is, as they also explain a categorical variable by the values of continuous independent variables. These other methods are preferable in applications where it is not reasonable to assume that the independent variables are normally distributed, which is a fundamental assumption of the LDA method.",
+                         p("Linear discriminant function analysis (i.e., discriminant analysis) performs a multivariate test of differences between groups.In addition, discriminant analysis is used to determine the minimum number of dimensions needed to describe these differences.  A distinction is sometimes made between descriptive discriminant analysis and predictive discriminant analysis.",
                            align="justify"),
                          br(),
                          h4(p("Statistical classification")), 
