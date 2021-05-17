@@ -14,7 +14,7 @@ shinyUI(fluidPage(
   # Header:
   
   headerPanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right'))),
-  titlePanel(windowTitle="Grahak.IO"),
+  titlePanel("Grahak.IO"),
   # Input in sidepanel:
   sidebarPanel(
 
