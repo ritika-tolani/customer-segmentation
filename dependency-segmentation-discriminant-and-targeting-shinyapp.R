@@ -16,6 +16,8 @@ if(!require("ggbiplot")) {install_github("vqv/ggbiplot")}
 try(require("ggplot2")||install.packages("ggplot2"))
 try(require("scales")||install.packages("scales"))
 try(require("gridExtra")||install.packages("gridExtra"))
+try(require("shinyWidgets")||install.packages("shinyWidgets"))
+
 
 library("shiny")
 library("cluster")
