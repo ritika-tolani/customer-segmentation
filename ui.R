@@ -13,14 +13,14 @@ shinyUI(fluidPage(
   ),
   # Header:
   
-  headerPanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right'))),
-  titlePanel("Grahak.IO"),
+  titlePanel(title=div(img(src="logo.jpg",height= "10%", width ="20%",align='Right',windowTitle= Grahak.IO))),
+  
   # Input in sidepanel:
   sidebarPanel(
 
-    fileInput("file", "Upload Segmentation data (csv file with header)"),
-    fileInput("file1", "Upload Discriminant data (csv file with header)"),
-    fileInput("file2", "Upload Classification data (csv file with header)"),
+    fileInput("file", "Upload data for segmentation analysis (csv file with header)"),
+    fileInput("file1", "Upload data for discriminant analysis (csv file with header)"),
+    fileInput("file2", "Upload data for classification analysis (csv file with header)"),
         
     selectInput("select", "Choose Segmentation Algo", 
                        c("K-Means","Hierarchical","Model Based"), selected = "K-Means"),
