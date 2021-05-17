@@ -7,7 +7,7 @@ library("shinyWidgets")
 
 shinyUI(fluidPage(
   setBackgroundColor(
-    color = c("#FFFFFF", "#1E90FF"),
+    color = c("#FFFFFF", "#5F9EA0"),
     gradient = "linear",
     direction = "bottom"
   ),
