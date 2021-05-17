@@ -93,5 +93,5 @@ submitButton(text = "Upload Changes", icon("refresh"))
       ) 
     ) 
   )
-# tabPanel("PCA Variance Plot",plotOutput("plot1", width = "100%")),
-# tabPanel("JSM Plot",plotOutput("plot", height = 800, width = 840)),
+tabPanel("PCA Variance Plot",plotOutput("plot1", width = "100%")),
+tabPanel("JSM Plot",plotOutput("plot", height = 800, width = 840)),
