@@ -82,7 +82,7 @@ submitButton(text = "Upload Changes", icon("refresh"))
                 
                 # discriminat
                 
-                tabPanel("Plot",h3("Segments Plot"), plotOutput("plot",height = 700, width = 840)),
+                tabPanel("Plot",h3("Segments Plot"), plotOutput("plot",height = 700, width = 840, col='blue')),
                 tabPanel("Data Segment",br(),
                          downloadButton('downloadData4', 'Download Segmentation file (Works only in browser)'), br(),br(),
                          dataTableOutput("table"),tags$head(tags$style("tfoot {display: table-header-group;}"))), 
@@ -93,5 +93,5 @@ submitButton(text = "Upload Changes", icon("refresh"))
       ) 
     ) 
   )
-tabPanel("PCA Variance Plot",plotOutput("plot1", width = "100%")),
-tabPanel("JSM Plot",plotOutput("plot", height = 800, width = 840)),
+#tabPanel("PCA Variance Plot",plotOutput("plot1", width = "100%")),
+#tabPanel("JSM Plot",plotOutput("plot", height = 800, width = 840)),
