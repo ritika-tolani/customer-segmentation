@@ -37,7 +37,7 @@ submitButton(text = "Upload Changes", icon("refresh"))
     tabsetPanel(type = "tabs",
                 tabPanel("About Us",align="center",
                          h3(p("Grahak.IO",style="font-family: Elephant;")), 
-                         h4(p("We at Grahak.IO aim at easing your customer Relationship Management by Providing a graphical analysis of your customer database in a userfriendly way.Grahak.IO provides you with graphs/plots which can be easily downloaded and shared.",
+                         h4(p("We at Grahak.IO aim at easing your customer Relationship Management by Providing a graphical analysis of your customer database in a userfriendly way.Grahak.IO provides you with graphs/plots which can be easily downloaded and shared..",
                            align="justify",style="font-family: Palatino Linotype;")),                       
                          br(),
                          h3(p("How we do it ? ",style="font-family: Elephant;")), 
